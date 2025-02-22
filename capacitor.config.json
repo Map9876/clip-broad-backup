@@ -1,0 +1,15 @@
+{
+  "appId": "com.clipboard.app",
+  "appName": "ClipboardManager",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Clipboard": {
+      "android": {
+        "requestPermissions": true
+      }
+    }
+  }
+}
