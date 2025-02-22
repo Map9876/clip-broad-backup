@@ -48,6 +48,7 @@ jobs:
         mkdir -p gradle/wrapper
         echo "distributionUrl=https\://services.gradle.org/distributions/gradle-7.6-bin.zip" > gradle/wrapper/gradle-wrapper.properties
         wget https://raw.githubusercontent.com/gradle/gradle/master/gradle/wrapper/gradle-wrapper.jar -P gradle/wrapper/
+        wget https://raw.githubusercontent.com/gradle/gradle/master/gradlew -O gradlew
         chmod +x gradlew
 
     - name: Make Gradlew Executable
